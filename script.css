@@ -1,4 +1,4 @@
-@media screen and (min-width: 1900px) {
+@media (min-width: 1900px) {
   .slider p:nth-child(1) {
     left: 6%;
   }
