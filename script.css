@@ -1,3 +1,21 @@
+@media screen and (min-width: 1900px) {
+  .slider p:nth-child(1) {
+    left: 6%;
+  }
+
+  .slider p:nth-child(2) {
+    left: 32%;
+  }
+
+  .slider p:nth-child(3) {
+    left: 58%;
+  }
+
+  .slider p:nth-child(4) {
+    left: 82%;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
