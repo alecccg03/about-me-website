@@ -12,7 +12,7 @@ const githubLogo = document.querySelector(".fa-github");
 const projectPreviews = document.querySelectorAll(".project-preview");
 
 btnResume.addEventListener("click", function () {
-  window.open("finalResume.pdf");
+  window.open("finalResume.pdf", "_blank");
 });
 
 linkedInLogo.addEventListener("click", function () {
