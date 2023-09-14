@@ -11,11 +11,26 @@ const facebookLogo = document.querySelector(".fa-facebook");
 const githubLogo = document.querySelector(".fa-github");
 const projectPreviews = document.querySelectorAll(".project-preview");
 const allSections = document.querySelectorAll(".section");
+const githubLinks = document.querySelectorAll(".preview--link");
+
+githubLinks.forEach((link) => {
+  link.addEventListener("click", function (e) {
+    if (e.target.classList.contains("git-one")) {
+      window.open("https://github.com/alecccg03/forkify-project");
+    }
+
+    if (e.target.classList.contains("git-two")) {
+      window.open("https://github.com/alecccg03/mapty");
+    }
+
+    if (e.target.classList.contains("git-three")) {
+      window.open("https://github.com/alecccg03/bankist");
+    }
+  });
+});
 
 btnResume.addEventListener("click", function () {
-  window.open(
-    "https://dochub.com/alecgarcia2817/EB5r38Awl0NrZ1awXzZ1kD/finalresume-pdf"
-  );
+  window.open("https://github.com/alecccg03/resume");
 });
 
 linkedInLogo.addEventListener("click", function () {
@@ -39,18 +54,21 @@ projectPreviews.forEach((preview) => {
       document
         .querySelector(".project--description-1")
         .classList.toggle("hidden");
+      document.querySelector(".link-one").classList.toggle("hidden");
     }
     if (e.target.classList.contains("project--2")) {
       document.querySelector(".project--2").classList.toggle("hidden");
       document
         .querySelector(".project--description-2")
         .classList.toggle("hidden");
+      document.querySelector(".link-two").classList.toggle("hidden");
     }
     if (e.target.classList.contains("project--3")) {
       document.querySelector(".project--3").classList.toggle("hidden");
       document
         .querySelector(".project--description-3")
         .classList.toggle("hidden");
+      document.querySelector(".link-three").classList.toggle("hidden");
     }
   });
 });
