@@ -392,6 +392,9 @@ div.section-1 {
 
 .phone, .email {
   transition: all 0.5s ease-out;
+}
+
+.fa-phone, .fa-envelope {
   color: white;
 }
 
