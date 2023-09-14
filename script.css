@@ -26,6 +26,12 @@ body {
 section {
   margin: 0;
   padding: 0;
+  transition: all 1s ease-out
+}
+
+.section--hidden {
+  opacity: 0;
+  transform: translateY(8rem);
 }
 
 img {
@@ -39,7 +45,7 @@ img {
 }
 
 .info {
-  top: 8%;
+  top: 22%;
   /* border: 2px solid red; */
   left: 20px;
   position: absolute;
@@ -79,7 +85,7 @@ img {
 
 .btn-resume {
   position: absolute;
-  top: 86%;
+  top: 78%;
   left: 10px;
   width: 120px;
   height: 30px;
@@ -224,7 +230,7 @@ div.section-1 {
   width: 275px;
   padding-left: 1rem;
   height: 160px;
-  top: 7%;
+  top: 13%;
   left: 0%;
 }
 
@@ -388,7 +394,7 @@ div.section-1 {
   width: 500px;
   height: 100px;
   left: 0%;
-  top: 5%;
+  top: 15%;
 }
 
 .logo {

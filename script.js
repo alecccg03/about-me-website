@@ -10,6 +10,7 @@ const linkedInLogo = document.querySelector(".fa-linkedin-square");
 const facebookLogo = document.querySelector(".fa-facebook");
 const githubLogo = document.querySelector(".fa-github");
 const projectPreviews = document.querySelectorAll(".project-preview");
+const allSections = document.querySelectorAll(".section");
 
 btnResume.addEventListener("click", function () {
   window.open(
@@ -52,6 +53,26 @@ projectPreviews.forEach((preview) => {
         .classList.toggle("hidden");
     }
   });
+});
+
+//Revealing sections
+const revealSection = function (entries, observer) {
+  const [entry] = entries;
+
+  if (!entry.isIntersecting) return;
+
+  entry.target.classList.remove("section--hidden");
+  observer.unobserve(entry.target);
+};
+
+const sectionObserver = new IntersectionObserver(revealSection, {
+  root: null,
+  threshold: 0.15,
+});
+
+allSections.forEach(function (section) {
+  sectionObserver.observe(section);
+  section.classList.add("section--hidden");
 });
 
 //Adding style to each logo
