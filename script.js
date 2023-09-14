@@ -12,7 +12,10 @@ const githubLogo = document.querySelector(".fa-github");
 const projectPreviews = document.querySelectorAll(".project-preview");
 
 btnResume.addEventListener("click", function () {
-  window.open("finalResume.pdf", "_blank");
+  window.open(
+    "https://dochub.com/alecgarcia2817/EB5r38Awl0NrZ1awXzZ1kD/finalresume-pdf",
+    "_blank"
+  );
 });
 
 linkedInLogo.addEventListener("click", function () {
