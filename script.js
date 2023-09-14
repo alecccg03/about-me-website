@@ -13,8 +13,7 @@ const projectPreviews = document.querySelectorAll(".project-preview");
 
 btnResume.addEventListener("click", function () {
   window.open(
-    "https://dochub.com/alecgarcia2817/EB5r38Awl0NrZ1awXzZ1kD/finalresume-pdf",
-    "_blank"
+    "https://dochub.com/alecgarcia2817/EB5r38Awl0NrZ1awXzZ1kD/finalresume-pdf"
   );
 });
 
