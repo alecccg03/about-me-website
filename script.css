@@ -1,4 +1,4 @@
-@media (min-width: 1501px) {
+@media (min-width: 2001px) {
   .slider p:nth-child(1) {
     position: inherit;
     left: 6%;
@@ -20,7 +20,7 @@
   }
 }
 
-@media (min-width: 1px) and (max-width: 1500px) {
+@media (min-width: 1px) and (max-width: 2000px) {
   .slider p:nth-child(1) {
     position: inherit;
     left: 9%;
