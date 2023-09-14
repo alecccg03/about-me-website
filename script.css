@@ -1,18 +1,44 @@
-@media (min-width: 2500px) {
+@media (min-width: 1501px) {
   .slider p:nth-child(1) {
-    left: 6;
+    position: inherit;
+    left: 6%;
   }
 
   .slider p:nth-child(2) {
+    position: inherit;
     left: 32%;
   }
 
   .slider p:nth-child(3) {
+    position: inherit;
     left: 58%;
   }
 
   .slider p:nth-child(4) {
+    position: inherit;
     left: 82%;
+  }
+}
+
+@media (min-width: 1px) and (max-width: 1500px) {
+  .slider p:nth-child(1) {
+    position: inherit;
+    left: 9%;
+  }
+  
+  .slider p:nth-child(2) {
+    position: inherit;
+    left: 34%;
+  }
+  
+  .slider p:nth-child(3) {
+    position: inherit;
+    left: 60%;
+  }
+  
+  .slider p:nth-child(4) {
+    position: inherit;
+    left: 84%;
   }
 }
 
@@ -519,26 +545,6 @@ div.section-1 {
 
 .slider p:hover {
   cursor: pointer;
-}
-
-.slider p:nth-child(1) {
-  position: inherit;
-  left: 9%;
-}
-
-.slider p:nth-child(2) {
-  position: inherit;
-  left: 34%;
-}
-
-.slider p:nth-child(3) {
-  position: inherit;
-  left: 60%;
-}
-
-.slider p:nth-child(4) {
-  position: inherit;
-  left: 84%;
 }
 
 .skills-info h1 {
