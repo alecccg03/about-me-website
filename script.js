@@ -12,6 +12,7 @@ const githubLogo = document.querySelector(".fa-github");
 const projectPreviews = document.querySelectorAll(".project-preview");
 const allSections = document.querySelectorAll(".section");
 const githubLinks = document.querySelectorAll(".preview--link");
+console.log(window.innerWidth);
 
 githubLinks.forEach((link) => {
   link.addEventListener("click", function (e) {

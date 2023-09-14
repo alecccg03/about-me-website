@@ -1,6 +1,6 @@
-@media (min-width: 1900px) {
+@media (min-width: 1537px) {
   .slider p:nth-child(1) {
-    left: 6%;
+    left: 6;
   }
 
   .slider p:nth-child(2) {
