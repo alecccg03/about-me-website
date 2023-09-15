@@ -20,7 +20,7 @@
   }
 }
 
-@media (min-width: 1px) and (max-width: 2000px) {
+@media (min-width: 1301px) and (max-width: 2000px) {
   .slider p:nth-child(1) {
     position: inherit;
     left: 9%;
@@ -39,6 +39,17 @@
   .slider p:nth-child(4) {
     position: inherit;
     left: 84%;
+  }
+}
+
+@media (min-width: 1px) and (max-width: 1300px) {
+  .name {
+    top: 47%;
+  }
+
+  .contact-links {
+    width: 100%;
+    left: 0%;
   }
 }
 
